@@ -1,1 +1,13 @@
-<p>distance-converter works!</p>
+<h2>Längdkonvertering</h2>
+
+<div class="container">
+    <div>
+        <label for="meter">Meter:</label><br>
+        <input id="meter" type="number" [(ngModel)]="meter" (input)="meterToFeet()">
+    </div>
+    <div>
+        <label for="feet">Fot:</label><br>
+        <input id="feet" type="number" [(ngModel)]="feet" (input)="feetToMeter()">
+    </div>
+</div>
+
