@@ -1,0 +1,13 @@
+<h2>Temperaturkonvertering</h2>
+
+<div class="container">
+    <div>
+        <label for="Celsius">Celsius:</label><br>
+        <input id="celsius" type="number" [(ngModel)]="celsius" (input)="celsiusToFahrenheit()">
+    </div>
+    <div>
+        <label for="fahrenheit">Fahrenheit:</label><br>
+        <input id="fahrenheit" type="number" [(ngModel)]="fahrenheit" (input)="fahrenheitToCelsius()">
+    </div>
+</div>
+
