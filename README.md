@@ -1,5 +1,5 @@
 
-#Labb3 
+# Labb3 
 Denna sidan skapades med ramverket Angular som en uppgift i kursen DT208G Programmering i TypeScript. Komponenter skapades för varje undersida, header, footer, och de två konverteringsfunktionerna. 
 Navigationen sköts med Angulars router-modul. 
 Loggan använder Angular Property binding och konverteringsmodulerna använder Two-way data binding för att fungera. 
